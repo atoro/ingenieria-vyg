@@ -1,0 +1,202 @@
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
+	margin:0; 
+	padding:0;
+}
+
+/* HTML ELEMENTS */
+body {
+	letter-spacing: 1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/* COMMON CLASSES */
+.break { 
+	clear:both;
+}
+
+/* HEADER */
+header { 
+	height:400px;
+}
+.headerimg {
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	left: 0px;
+	top: 22px;
+	float: right
+}
+
+/* NAVIGATION */
+#nav-outer {
+	height: 60px;
+	position: relative;
+	top: 24px;
+	width:950px;
+	margin:auto;
+}
+#navigation { 
+	height:100px; 
+	width:950px; 
+	margin:0 auto; 
+	background-position:top left; 
+	background-repeat:no-repeat; 
+}
+#sep_izq {
+	width:106px;
+	height:53px;
+	float:left;
+}
+#nosotros {
+	width: 122px;
+	height: 38px;
+	float: left;
+	padding-top: 15px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#nosotros:hover {
+	width: 122px;
+	height: 48px;
+	float: left;
+	background-color: #E22E1C;
+	z-index: 999;
+}
+#servicios {
+	width:121px;
+	height: 38px;
+	float:left;
+	padding-top: 15px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#servicios:hover {
+	width:121px;
+	height: 48px;
+	float:left;
+	background-color: #E22E1C;
+	z-index: 999;
+}
+#proyectos {
+	width:128px;
+	height: 38px;
+	float:left;
+	padding-top: 15px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#proyectos:hover {
+	width:128px;
+	height: 48px;
+	float:left;
+	background-color: #E22E1C;
+	z-index: 999;
+}
+#responsabilidad {
+	width:247px;
+	height: 38px;
+	float:left;
+	padding-top: 15px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#responsabilidad:hover {
+	width:247px;
+	height: 48px;
+	float:left;
+	background-color: #E22E1C;
+	z-index: 999;	
+}
+#contacto {
+	width:123px;
+	height: 38px;
+	float:left;
+	padding-top: 15px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#contacto:hover {
+	width:123px;
+	height: 48px;
+	float:left;
+	background-color: #E22E1C;
+	z-index: 999;		
+}
+
+/* SEARCH */
+#search { 
+	background-color:#051733; 
+	float:right; 
+	width:220px; 
+	padding:10px; 
+}
+#searchtxt { 
+	padding:3px; 
+	width:150px; 
+}
+#searchbtn { 
+	border:1px solid #eee !important; 
+	background-color:#CD2B3A; 
+	color:#eee; 
+	padding:3px; 
+	margin-left:5px; 
+}
+
+/* MENU */
+#menu { 
+	position:relative; 
+	top:85px; 
+}
+#menu ul { 
+	list-style:none; 
+}
+#menu ul li { 
+	display:inline; 
+	font-variant:small-caps; 
+	font-size:12px; 
+}
+#menu ul li a { 
+	color:white; 
+	text-decoration:none; 
+	font-weight:bold; 
+	padding-right:20px; 
+}
+#menu ul li a:hover { 
+	text-decoration:underline; 
+}
+
+/* HEADER HAVIGATION */
+#headernav-outer {
+	position: relative;
+	top: 250px;
+	margin: 0 auto;
+	width: 950px;
+	height: 56px;
+	background-image: url(../images/botonera.jpg)
+}
+#linea_sup {
+	background-image:url(../images/line_sup.jpg);
+	height:22px;
+	width:100%
+	
+	
+}
